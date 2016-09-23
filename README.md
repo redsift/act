@@ -10,3 +10,6 @@
     act actconfig.txt > ouput.txt
 
     python /usr/local/bin/act_latency.py -l output.txt
+
+
+Compare results against https://discuss.aerospike.com/c/benchmarks/act-ssd-benchmarks    
