@@ -1,4 +1,4 @@
-# Aerospike SSD performance test
+# Aerospike SSD performance test & latest hdparm
 
     # assuming /dev/sdb is under test
     docker run -ti --device /dev/sdb:/dev/ssd quay.io/redsift/act
