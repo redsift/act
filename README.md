@@ -7,4 +7,6 @@
 
     python /usr/local/bin/act_config_helper.py
 
-    
+    act actconfig.txt > ouput.txt
+
+    python /usr/local/bin/act_latency.py -l output.txt
