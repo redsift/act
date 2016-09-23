@@ -1,1 +1,10 @@
 # Aerospike SSD performance test
+
+    # assuming /dev/sdb is under test
+    docker run -ti --device /dev/sdb:/dev/ssd quay.io/redsift/act
+    
+    actprep /dev/ssd
+
+    python /usr/local/bin/act_config_helper.py
+
+    
